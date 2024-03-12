@@ -47,6 +47,10 @@ input {
   background-color: #fdfdfe;
   padding-inline-start: 0.75rem;
   font-size: 0.875rem;
+
+  &:disabled {
+    opacity: 0.5;
+  }
 }
 
 .button {
